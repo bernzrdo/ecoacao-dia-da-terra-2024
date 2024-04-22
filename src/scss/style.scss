@@ -43,7 +43,7 @@ button {
 
         width: 35%;
         height: 35%;
-        background-image: url('faces/default.svg');
+        background-image: url('../faces/default.svg');
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -144,7 +144,7 @@ body > div {
             right: 60px;
             width: 100px;
             height: 100px;
-            background-image: url('speech.svg');
+            background-image: url('../speech.svg');
             background-size: contain;
             background-repeat: no-repeat;
             background-position: 0 40px;
@@ -239,8 +239,8 @@ body > div {
             opacity: 1;
         }
 
-        .correct::before { background-image: url('correct.svg') }
-        .wrong::before { background-image: url('wrong.svg') }
+        .correct::before { background-image: url('../correct.svg') }
+        .wrong::before { background-image: url('../wrong.svg') }
 
     }
 
