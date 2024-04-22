@@ -1,4 +1,7 @@
 {
-    "$schema": "https://unpkg.com/lithor/assets/schema.json",
-    "name": "Dia da Terra 2024"
+    "$schema": "node_modules/lithor/assets/schema.json",
+    "name": "Dia da Terra 2024",
+    "paths": {
+        "build": "docs"
+    }
 }
