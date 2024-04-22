@@ -1073,13 +1073,13 @@ function loadImage(src: string){
 }
 
 for(let src of [
-    '/faces/default.svg',
-    '/faces/default-talk.svg',
-    '/faces/happy.svg',
-    '/faces/happy-talk.svg',
-    '/faces/sad.svg',
-    '/faces/sad-talk.svg',
-    '/speech.svg'
+    'faces/default.svg',
+    'faces/default-talk.svg',
+    'faces/happy.svg',
+    'faces/happy-talk.svg',
+    'faces/sad.svg',
+    'faces/sad-talk.svg',
+    'speech.svg'
 ]) loadImage(src);
 
 const $sun: HTMLDivElement = document.querySelector('#sun')!;
@@ -1094,7 +1094,7 @@ const $face: HTMLDivElement = $sun.querySelector('.face')!;
 })();
 
 function changeFace(face: 'default' | 'happy' | 'sad'){
-    $face.style.backgroundImage = `url('/faces/${face}.svg')`;
+    $face.style.backgroundImage = `url('faces/${face}.svg')`;
 }
 
 const $screens = {
